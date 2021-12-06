@@ -441,7 +441,7 @@ void WLED::initAP(bool resetAP)
     return;
 
   if (!apSSID[0] || resetAP)
-    strcpy_P(apSSID, PSTR("WLED-AP"));
+    strcpy_P(apSSID, PSTR("WLAN-Weihnachtbsaum"));
   if (resetAP)
     strcpy_P(apPass, PSTR(DEFAULT_AP_PASS));
   DEBUG_PRINT(F("Opening access point "));

@@ -7,7 +7,7 @@
 
 //Defaults
 #define DEFAULT_CLIENT_SSID "Your_Network"
-#define DEFAULT_AP_PASS     "wled1234"
+#define DEFAULT_AP_PASS     "weihnachtsbaum"
 #define DEFAULT_OTA_PASS    "wledota"
 
 //increase if you need more
@@ -326,7 +326,7 @@
 #endif
 
 #ifndef DEFAULT_LED_COUNT
-  #define DEFAULT_LED_COUNT 30
+  #define DEFAULT_LED_COUNT 19
 #endif
 
 #endif
